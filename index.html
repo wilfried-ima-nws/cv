@@ -10,23 +10,64 @@
 
 <body>
     <header>
-        <h1>Mon CV</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Accueil</a></li>
-                <li><a href="#">À propos</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
+        <h1>ETUDIANT EN WEB DESIGN</h1>
+        <p>Bienvenue sur mon CV interactif.</p>
     </header>
+    <nav>
+        <button onclick="showSection('accueil')">Accueil</button>
+        <button onclick="showSection('experiences')">Expériences Professionnelles</button>
+        <button onclick="showSection('competences')">Compétences</button>
+        <button onclick="showSection('qualites')">Qualités</button>
+        <button onclick="showSection('interets')">Centres d'Intérêts</button>
+        <button onclick="showSection('formations')">Formations</button>
+    </nav>
     <main>
-        <section>
-            <h2>Section de Contenu</h2>
-            <p>Ceci est un paragraphe d'exemple avec <strong>du texte en gras</strong> et <em>en italique</em>.</p>
+        <section id="accueil">
+            <h2>Accueil</h2>
+            <section id="accueil">
+                <p>Bonjour et bienvenue ! Je suis IMA ABDALLAH WILFRIED, étudiant en première année à la <strong>Normandie-Web-School</strong>, une école spécialisée dans les métiers du web. 
+                   Passionné par le développement et le design web, je me forme chaque jour pour acquérir de nouvelles compétences et devenir un expert dans ce domaine en constante évolution.
+                </p>
+                <p>Actuellement en formation, j'acquiers des bases solides en développement, ainsi qu'en gestion de projets numériques. 
+                    Mon objectif est de maîtriser toutes les facettes de la création de sites web et d'applications pour offrir des solutions 
+                    innovantes aux entreprises et particuliers.
+                </p>
+                <p>Je suis constamment à la recherche de nouveaux défis et opportunités d'apprentissage, car je suis convaincu que 
+                    c'est en pratiquant que l'on progresse le plus. En dehors de mes études, je m'intéresse à 
+                    d'aute activité culturel, ce qui me permet de rester curieux et de trouver des idées créatives
+                     qui nourrissent mes projets.
+                </p>
+                <p>Je vous invites à parcourir mon CV en ligne pour en savoir plus sur mes expériences, mes compétences et mes projets.
+                     N'hésitez pas à me contacter pour toute opportunité de collaboration ou de stage dans le domaine du web et du design.
+                </p>
+            </section>
+        </section>
+        <section id="experiences">
+            <h2>Expériences Professionnelles</h2>
+            <h4>Stagiaire en réseau télécommunication</h4>
+            <p>Compagnie de téléphonie internationale Août 2023 - Octobre 2023
+                <strong> MOOV AFRICA</strong>
+            </p>
             <ul>
-                <li>Élément de liste 1</li>
-                <li>Élément de liste 2</li>
-                <li>Élément de liste 3</li>
+                <li> Etablir un diagnostic de situation, des systèmes technique et des préconisations argumentées. </li>
+                <li>Mettre en place une architecture de réseaux</li>
+                <li>Garantir l'efficacité des logiciels systèmes et infractuture de Communication</li>
+                <li>Veille technologie</li>
+                <li>Faire évoluer la performance du réseau</li>
+                <li>Installer et intégrer des nouveaux outils</li>
+                <li>Evoluer les risques et opportunités techniques</li>
+            
+            </ul>
+            <h4>Assistant réseau</h4>
+            <p>Entreprise <strong>ECODEV</strong> Mars 2022 - Juillet 2023
+            </p>
+            <ul>
+                <li>Càblage et installation de système de visioconférence
+                    et de Communication unifiée 
+                </li>
+                <li>càblage réseau interne auprès de clients entreprise</li>
+                <li>Participation au déploiement de la fibre optique avec <strong>ORANGE,TELECEL,MOOV AFRICA</strong></li>
+                <lit>deveppeur Wordpress & Infographique Digital</lit>
             </ul>
         </section>
     </main>
